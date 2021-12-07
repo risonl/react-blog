@@ -16,7 +16,7 @@ function ArticleCardWithClickbait (props) {
         <Row>
         <Card fluid="md">
             <a 
-            href="/article/independence">
+            href={props.href}>
             <Card.Img className="fluid" src={props.leadImage} />
             <div className="carousel-caption up2">
             <h3 className = "text-left">
